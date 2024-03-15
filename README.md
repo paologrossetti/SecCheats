@@ -8,4 +8,4 @@ SecCheats is a collection of *cheat sheets* for various topics in security.
 ### ‣ [Windows Commands](./Windows%20Commands.md)
 ### ‣ [Active Directory](./Active%20Directory.md)
 ### ‣ [Windows - Privilege Escalation](./Windows%20Privilege%20Escalation.md)
-### ‣ [Linux - Privilege Escalation]()
+### ‣ [Linux - Privilege Escalation](./Linux%20Privilege%20Escalation.md)
